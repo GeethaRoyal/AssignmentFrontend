@@ -1,0 +1,46 @@
+.display-ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+.display-body-con {
+  padding: 20px 50px;
+}
+.row-header {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  border: 1px solid white;
+}
+.user {
+  font-weight: bold;
+  min-width: 100px;
+  margin-left: 20px;
+}
+.id {
+  font-weight: bold;
+  min-width: 100px;
+  margin-left: 20px;
+}
+.title {
+  font-weight: bold;
+  min-width: 300px;
+  margin-left: 20px;
+}
+.body {
+  font-weight: bold;
+  min-width: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.bg-primary {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: rgb(250, 245, 245);
+  text-align: center;
+  letter-spacing: 1px;
+}

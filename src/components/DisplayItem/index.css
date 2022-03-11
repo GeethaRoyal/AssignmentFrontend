@@ -1,0 +1,39 @@
+.row-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-top: none;
+  padding-top: 10px;
+}
+.col-item-user {
+  min-width: 100px;
+  margin-left: 20px;
+}
+.col-item-id {
+  min-width: 100px;
+  margin-left: 20px;
+}
+.col-item-title {
+  min-width: 300px;
+  margin-left: 20px;
+}
+.col-item-body {
+  min-width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row-item {
+  padding: 20px;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+ul li:nth-child(odd) {
+  background-color: #c76750;
+}
+
+ul li:nth-child(even) {
+  background-color: #ebb095;
+}

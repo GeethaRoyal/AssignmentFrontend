@@ -1,0 +1,119 @@
+.nav-header {
+  padding: 20px 30px;
+}
+
+.nav-mbl-content {
+  display: flex;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-mbl-content {
+    flex-direction: column;
+  }
+}
+
+.nav-mbl-logo-con {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mbl-logo-con {
+    display: none;
+  }
+}
+
+.nav-logo-img {
+  width: 110px;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logo-img {
+    width: 165px;
+  }
+}
+
+.nav-mbl-link-con {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mbl-link-con {
+    display: none;
+  }
+}
+
+.nav-mobile-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0b75b3;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.nav-mobile-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-btn {
+    display: none;
+  }
+}
+
+.mbl-logout-img {
+  width: 24px;
+}
+
+.nav-con {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-con {
+    display: none;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-logout-btn {
+    display: none;
+  }
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/cartoon-working-day-scene-illustration_52683-62607.jpg?w=826');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: white;
+  background-color: blue;
+}
